@@ -1,0 +1,12 @@
+[user]
+	email = 63861228+jbevan4@users.noreply.github.com
+	name = Joshua-Luke Bevan
+	signingkey = 6322C88B7B673B8E
+[alias]
+	co = checkout
+[pull]
+	rebase = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
