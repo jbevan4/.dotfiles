@@ -1,6 +1,10 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "nikaro/tap"
 # Spell checker with better logic than ispell
 brew "aspell"
 # Per-project, per-directory shell environments
@@ -41,17 +45,9 @@ brew "grep"
 brew "node"
 # Manage multiple Node.js versions
 brew "nvm"
-# Python dependency management tool
-brew "pipenv"
-# Object-relational database system
-brew "postgresql", restart_service: true
-# Object-relational database system
-brew "postgresql@10"
 # Python version management
 brew "pyenv"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
-# Persistent key-value database, with built-in net interface
 brew "redis"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
@@ -69,3 +65,30 @@ brew "yarn"
 brew "zlib"
 # UNIX shell (command interpreter)
 brew "zsh"
+brew "act"
+brew "antigen"
+brew "python@3.11"
+brew "asciinema"
+brew "asdf"
+brew "awscli"
+brew "docker"
+brew "docker-compose"
+brew "gh"
+brew "hadolint"
+brew "helm"
+brew "kubernetes-cli"
+brew "kubectx"
+brew "mackup"
+brew "python@3.11"
+brew "terraform"
+brew "the_silver_searcher"
+brew "wget"
+cask "dbeaver-community"
+cask "docker"
+cask "iterm2"
+cask "lens"
+cask "mockoon"
+cask "openvpn-connect"
+cask "rectangle"
+cask "visual-studio-code"
+cask "zoom"

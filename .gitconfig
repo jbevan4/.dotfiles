@@ -1,7 +1,7 @@
 [user]
-	email = 63861228+jbevan4@users.noreply.github.com
+	email = joshua-luke.bevan@bark.com
 	name = Joshua-Luke Bevan
-	signingkey = 6322C88B7B673B8E
+	signingkey = 9B305EC55EEEDDF80BEDE682467CD8CA7BEFF62E
 [alias]
 	co = checkout
 [pull]
@@ -9,4 +9,4 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	program = /opt/homebrew/bin/gpg

@@ -104,7 +104,7 @@ function restart_gpg() {
 killall gpg-agent && gpg-agent --daemon --use-standard-socket --pinentry-program /usr/local/bin/pinentry;
 }
 
-
+alias python='python3'
 alias restart_gpg="restart_gpg"
 
 prompt_context() {
@@ -121,3 +121,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+export GPG_TTY=$(tty)
+
