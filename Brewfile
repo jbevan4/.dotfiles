@@ -5,83 +5,33 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "nikaro/tap"
-# Spell checker with better logic than ispell
 brew "aspell"
-# Per-project, per-directory shell environments
 brew "autoenv"
-# Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Library for command-line editing
-brew "readline"
-# Command-line interface for SQLite
-brew "sqlite"
-# General-purpose data compression with high compression ratio
-brew "xz"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# Official Amazon AWS command-line interface
-brew "awscli"
-# Programmable completion for Bash 3.2
-brew "bash-completion"
-# Secure runtime for JavaScript and TypeScript
-brew "deno"
-# Distributed revision control system
-brew "git"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Graph visualization software from AT&T and Bell Labs
-brew "graphviz"
-# GNU grep, egrep and fgrep
-brew "grep"
-# Platform built on V8 to build network applications
-brew "node"
-# Manage multiple Node.js versions
-brew "nvm"
-# Python version management
-brew "pyenv"
-# Interpreted, interactive, object-oriented programming language
-brew "redis"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
-# Install various Ruby versions and implementations
-brew "ruby-build"
-# Tool to create intelligent and beautiful documentation
-brew "sphinx-doc"
-# Tool to build, change, and version infrastructure
-brew "terraform"
-# Terraform version manager inspired by rbenv
-brew "tfenv"
-# JavaScript package manager
-brew "yarn"
-# General-purpose lossless data-compression library
-brew "zlib"
-# UNIX shell (command interpreter)
-brew "zsh"
-brew "act"
-brew "antigen"
-brew "python@3.11"
-brew "asciinema"
 brew "asdf"
+brew "aspell"
+brew "autoenv"
+brew "xz"
 brew "awscli"
-brew "docker"
-brew "docker-compose"
+brew "bash-completion"
+brew "glib"
+brew "openssl@1.1"
+brew "deno"
+brew "git"
+brew "gnutls"
+brew "gnupg"
+brew "pango"
+brew "the_silver_searcher"
+brew "thefuck"
+brew "tree"
+brew "zlib"
+brew "zsh"
+brew "python@3.11"
 brew "gh"
 brew "hadolint"
 brew "helm"
-brew "kubernetes-cli"
-brew "kubectx"
 brew "mackup"
 brew "python@3.11"
-brew "terraform"
-brew "the_silver_searcher"
 brew "wget"
 cask "dbeaver-community"
 cask "docker"
@@ -89,6 +39,5 @@ cask "iterm2"
 cask "lens"
 cask "mockoon"
 cask "openvpn-connect"
-cask "rectangle"
 cask "visual-studio-code"
 cask "zoom"
